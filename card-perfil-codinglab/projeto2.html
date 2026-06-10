@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil CodingLab</title>
+    <!-- Importa o CSS que estiliza o card de perfil -->
+    <link rel="stylesheet" href="../css/projeto2.css">
+    <!-- Importa Font Awesome Free para os ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" />
+</head>
+<body>
+    <!-- Card principal com a aparência da imagem fornecida -->
+    <section class="profile-card">
+        <!-- Cabeçalho azul com o avatar sobreposto -->
+        <div class="profile-card__header"></div>
+
+        <!-- Foto de perfil circular centralizada sobre a área azul -->
+        <div class="profile-card__avatar">
+            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&w=400&q=80" alt="Foto de perfil">
+        </div>
+
+        <!-- Conteúdo principal do card -->
+        <div class="profile-card__body">
+            <h1 class="profile-card__name">CodingLab</h1>
+            <p class="profile-card__role">YouTuber & Blogger</p>
+
+            <!-- Ícones de redes sociais usando Font Awesome -->
+            <div class="profile-card__social">
+                <a href="#" class="facebook" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="twitter" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="instagram" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="youtube" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                </a>
+            </div>
+
+            <!-- Botões de ação principal -->
+            <div class="profile-card__actions">
+                <button class="profile-card__button subscribe">Subscribe</button>
+                <button class="profile-card__button message">Message</button>
+            </div>
+
+            <!-- Estatísticas exibidas na parte inferior do card -->
+            <div class="profile-card__stats">
+                <div class="profile-card__stat">
+                    <span class="stat-icon" aria-hidden="true">
+                        <i class="fa-solid fa-heart"></i>
+                    </span>
+                    <div>
+                        <strong>60k</strong>
+                        <span>Likes</span>
+                    </div>
+                </div>
+                <div class="profile-card__stat">
+                    <span class="stat-icon" aria-hidden="true">
+                        <i class="fa-solid fa-comment"></i>
+                    </span>
+                    <div>
+                        <strong>20k</strong>
+                        <span>Comments</span>
+                    </div>
+                </div>
+                <div class="profile-card__stat">
+                    <span class="stat-icon" aria-hidden="true">
+                        <i class="fa-solid fa-share-square"></i>
+                    </span>
+                    <div>
+                        <strong>12k</strong>
+                        <span>Shares</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
